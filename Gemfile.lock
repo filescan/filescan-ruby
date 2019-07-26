@@ -2,9 +2,9 @@ PATH
   remote: .
   specs:
     filescan (0.1.0)
-      faraday
-      mime-types
-      oj
+      faraday (~> 0.15)
+      mime-types (~> 3.2)
+      oj (~> 3.8)
 
 GEM
   remote: https://rubygems.org/
