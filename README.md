@@ -20,7 +20,15 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+```ruby
+require 'filescan'
+client = Filescan::Client.new(api_key=YOUR_API_KEY)
+client.list_projects
+client.project_id = PROJECT_ID_YOU_WANT_TO_USE
+scan_id = client.check_file(File.open('malicious_file', 'rb'))["data"]["id"]
+result = client.scan_report(scan_id)
+```
+
 
 ## Development
 
@@ -30,7 +38,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/ruby. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+Bug reports and pull requests are welcome on GitHub at https://github.com/filescan/ruby. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
 
 ## License
 
