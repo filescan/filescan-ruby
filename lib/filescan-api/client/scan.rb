@@ -1,6 +1,6 @@
 require 'mime/types'
 
-module Filescan
+module FilescanApi
   class Client
 
     module Scan

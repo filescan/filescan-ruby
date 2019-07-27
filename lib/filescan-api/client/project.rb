@@ -1,4 +1,4 @@
-module Filescan
+module FilescanApi
   class Client
 
     module Project

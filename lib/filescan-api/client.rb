@@ -1,13 +1,13 @@
 require 'faraday'
 require 'oj'
 
-require 'filescan/client/scan'
-require 'filescan/client/project'
+require 'filescan-api/client/scan'
+require 'filescan-api/client/project'
 
-module Filescan
+module FilescanApi
   class Client
-    include Filescan::Client::Scan
-    include Filescan::Client::Project
+    include FilescanApi::Client::Scan
+    include FilescanApi::Client::Project
 
     attr_accessor :project_id
 

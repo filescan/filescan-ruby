@@ -7,7 +7,7 @@ FileScan.dev API wrapper
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'filescan'
+gem 'filescan-api'
 ```
 
 And then execute:
@@ -16,7 +16,7 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install filescan
+    $ gem install filescan-api
 
 ## Usage
 

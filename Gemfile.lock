@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    filescan (0.1.0)
+    filescan-api (0.1.2)
       faraday (~> 0.15)
       mime-types (~> 3.2)
       oj (~> 3.8)
@@ -37,7 +37,7 @@ PLATFORMS
 
 DEPENDENCIES
   bundler (~> 2.0)
-  filescan!
+  filescan-api!
   rake (~> 10.0)
   rspec (~> 3.0)
 

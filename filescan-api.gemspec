@@ -1,11 +1,11 @@
 
 lib = File.expand_path("../lib", __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require "filescan/version"
+require "filescan-api/version"
 
 Gem::Specification.new do |spec|
-  spec.name          = "filescan-ruby"
-  spec.version       = Filescan::VERSION
+  spec.name          = "filescan-api"
+  spec.version       = FilescanApi::VERSION
   spec.authors       = ["Mateusz Kozak"]
   spec.email         = ["mateusz@mkozak.pl"]
 
