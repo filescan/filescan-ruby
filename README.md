@@ -25,7 +25,7 @@ require 'filescan'
 client = Filescan::Client.new(api_key=YOUR_API_KEY)
 client.list_projects
 client.project_id = PROJECT_ID_YOU_WANT_TO_USE
-scan_id = client.check_file(File.open('malicious_file', 'rb'))["data"]["id"]
+scan_id = client.check_file(File.open('malicious_file', 'rb'))["id"]
 result = client.scan_report(scan_id)
 ```
 

@@ -5,7 +5,7 @@ module FilescanApi
 
       def list_projects
         resp = @connection.get("projects")
-        Oj.load(resp.body)
+        Oj.load(resp.body)['data']
       end
     end
   end
