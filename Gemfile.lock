@@ -17,7 +17,7 @@ GEM
     mime-types-data (3.2019.0331)
     multipart-post (2.1.1)
     oj (3.8.1)
-    rake (10.5.0)
+    rake (13.0.1)
     rspec (3.8.0)
       rspec-core (~> 3.8.0)
       rspec-expectations (~> 3.8.0)
@@ -38,7 +38,7 @@ PLATFORMS
 DEPENDENCIES
   bundler (~> 2.0)
   filescan-api!
-  rake (~> 10.0)
+  rake (~> 13.0)
   rspec (~> 3.0)
 
 BUNDLED WITH
